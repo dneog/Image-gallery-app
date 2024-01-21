@@ -1,0 +1,194 @@
+.mains{
+    position: absolute;
+    width: 100%;
+}
+
+
+.fl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 4px 30px;
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+    box-sizing: border-box;
+    z-index: 1000;
+    transition: all 0.3s;
+    height: 66px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.13);
+    box-shadow: -3.943px 3.943px 3.943px 0px rgba(255, 255, 255, 0.43) inset, 3.943px -3.943px 3.943px 0px rgba(182, 182, 182, 0.43) inset;
+    backdrop-filter: blur(25.034873962402344px);
+}
+.flShare{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 4px 30px;
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+    box-sizing: border-box;
+    z-index: 1000;
+    transition: all 0.3s;
+    height: 66px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.633);
+
+}
+
+
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+    
+.account{
+    border: 2px solid white;
+    border-radius: 5px;   
+    transition: all 0.2s;
+    color: white;
+    list-style: none;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 2px 8px;
+}
+.account:hover{
+    background: #ffffff;
+    color: rgb(34, 34, 34);
+}
+
+.user{
+    width: 36px;
+   position: relative;
+   cursor: pointer;
+   border-radius: 50%;
+   transition: all 0.1s;
+}
+
+
+.userss{
+    width: 35px;
+   position: absolute;
+   top: -18px;
+   right: 0px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.pp1{
+    font-size: 18px;
+}
+
+
+.profile{
+    width: 200px;
+    position: fixed;
+    top: 14%;
+    right: 2.7%;
+    z-index: 999;
+    background: white;
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.819);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.264);
+}
+        .ul{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+           
+        }
+        .boxul{
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+    
+        .li{
+            padding: 4px 10px;
+            list-style: none;    
+            color: rgb(255, 255, 255);
+            font-weight: 500;
+            font-size: 17px;
+           
+        }
+        .li:hover{
+            color: #fff9f9;
+        }
+        .navLi{
+            padding: 4px 10px;
+            list-style: none;    
+            color: rgb(67, 67, 67);
+            font-weight: 500;
+        }
+        .navLi:hover{
+            background: #f5f5f5;
+            border-radius: 4px;
+        }
+
+        .li:hover{
+            
+           
+        }
+
+
+
+.sun{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+
+@media screen and (max-width : 800px) {
+    .fl{
+        padding: 15px;   
+    }    
+}
+
+
+@media screen and (max-width : 600px) {
+    .fl{
+        padding: 10px; 
+        height: 60px;  
+        margin-top: 20px;
+    } 
+    
+    .ul{
+        gap: 8px;
+
+    }
+
+    .li{
+        padding: 3px 5px;
+        list-style: none;    
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .account{
+        padding: 3px 5px;
+        list-style: none;    
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+        border: 1.5px solid white;
+        border-radius: 4px;
+    }
+
+    .logo{
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        font-size: 15px;
+    }
+        
+  
+}

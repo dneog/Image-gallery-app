@@ -1,0 +1,20 @@
+
+
+.Carousel{
+    max-width: 1450px;
+    margin: 0px auto; 
+    padding: 0px 10px;  
+}
+
+.n1{
+    border: 1px solid black;
+    padding: 4px 5px;
+    margin: 6px;
+    text-align: center;
+   cursor: pointer;
+   transition: all 0.2s;
+}
+.n1:hover{
+    background: #000;
+    color: white;
+}

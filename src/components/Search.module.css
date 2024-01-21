@@ -1,0 +1,80 @@
+.search{
+    display: flex;
+    align-items: center;
+    border-radius: 9px;
+    background: rgba(0, 0, 0, 0.12);
+    box-shadow: -3.943px 3.943px 3.943px 0px rgba(255, 255, 255, 0.43) inset, 3.943px -3.943px 3.943px 0px rgba(182, 182, 182, 0.43) inset;
+    backdrop-filter: blur(25.034873962402344px);
+    height: 65px;
+    width: 62%;
+    margin: 20px 0px;
+    padding: 0px 20px;
+}
+
+.input{
+    background: #00000000;
+    border: 0;
+    outline: none;
+    padding: 0px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 0.5px;
+    width: 100%;
+}
+
+.input::placeholder{
+    color: white;
+  }
+
+.searchbox{
+    padding: 5px 0px;
+    padding-right: 15px;
+    border-right: 2px solid white;
+    cursor: pointer;
+}
+
+.go{
+    padding: 1px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background: #00000000;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.go:hover{
+    border: 2px solid rgb(0, 158, 47);
+
+}
+
+.sInp{
+    display: flex;
+    width: 100%;
+}
+
+
+@media screen and (max-width : 600px) {
+    .search{
+        height: 57px;
+        width: 94%;
+        margin: 20px 0px;
+        padding: 0px 15px;
+    }
+    .input{  
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.3px; 
+        padding: 0px 10px;
+    }
+    .searchbox{
+        padding: 5px 0px;
+        padding-right: 10px;
+        
+    }
+   
+}

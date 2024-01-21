@@ -1,0 +1,35 @@
+.modelOverlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #0000002b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.model{
+    width: 40%;
+    min-width: 280px;
+    height: 220px;
+    background: #ffffff;
+    padding: 0px;
+    border-radius: 10px;
+    z-index: 2000;
+}
+
+@media screen and (max-width : 900px) {
+    .model{
+        width: 76%;
+      
+    }
+}
+@media screen and (max-width : 600px) {
+    .model{
+        width: 92%;
+      
+    }
+}
+

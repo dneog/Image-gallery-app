@@ -1,0 +1,36 @@
+.ProfilePage{
+    background: #f0f0f0;
+    min-height: 100vh;
+}
+
+.pEmail{
+    max-width: 1400px;
+    margin: auto;
+    padding-top: 120px;
+}
+.emailAddress{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.emailP{
+    font-size: 18px;
+}
+
+.logData{
+    font-size: 16px;
+    padding: 5px 15px;
+   margin-top: 15px;
+   font-weight: 500;
+    background: #cc270e;
+    border: 0;
+    outline: none;
+    color: white;
+    border-radius: 3px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.logData:hover{
+    background: #de2c10;
+}
